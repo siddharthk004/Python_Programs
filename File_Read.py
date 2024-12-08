@@ -1,7 +1,7 @@
 import os.path
 
 def main():
-    print("Enter the name of file that you want to open for reading purpose : ")
+    print("Enter the name of the file that you want to open for reading purpose : ")
     File_name = input()
     
     if os.path.exists(File_name):
